@@ -1,0 +1,17 @@
+{
+    "name": "LaughLab | Satenra Kumar Parteti",
+    "version": "0.0.1",
+    "description": "The 'LaughLab' Chrome extension, masterfully crafted by Satendra Kumar Parteti, offers a treasure trove of witty and amusing jokes to lighten any mood and spark laughter.\n\n\u2022 Special acknowledgment goes to Sven Fehler for his adept API integration, ensuring a seamless and enjoyable browsing experience.\n\n\u2022(Credits: Extension Creator: Satendra Kumar Parteti [GitHub: https://github.com/satendra03], API Integration: Sven Fehler [GitHub: https://github.com/Sv443])",
+    "manifest_version": 3,
+    "author": "Satendra Kumar Parteti",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "LaughLab",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "64": "icon_64.png",
+        "128": "icon_128.png"
+    },
+    "permissions": ["activeTab"]
+}

@@ -1,0 +1,96 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Body Styles */
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 30px;
+    height: auto;
+    width: 400px;
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container Styles */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Joke Container Styles */
+#jokeContainer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Textbox Styles */
+#textbox {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 45px;
+    opacity: 0; /* Initially hide the textbox */
+    transition: opacity 0.5s ease; /* Apply transition to opacity */
+}
+
+/* Show the textbox when opacity changes */
+#textbox.show {
+    opacity: 1;
+}
+
+
+/* Another Joke Button Styles */
+#anotherJokeButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgba(0, 0, 0, 0.881);
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Another Joke Button Hover Styles */
+#anotherJokeButton:hover {
+    background-color: #45a049;
+}
+
+/* Credits Styles */
+.credits {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Credits Heading Styles */
+#name, #api{
+    color: rgba(0, 0, 0, 0.701);
+    font-size: 12px;
+}
