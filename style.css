@@ -1,5 +1,5 @@
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 /* Global Reset */
 * {
@@ -8,16 +8,16 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+/* Hide Scrollbar */
+::-webkit-scrollbar {
     display: none;
 }
 
 /* Body Styles */
 body {
-    font-family: "Comfortaa", sans-serif;
-    font-size: 30px;
-    height: auto;
-    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
     background: linear-gradient(to bottom, #6dd5ed, #2193b0);
     display: flex;
     justify-content: center;
@@ -30,33 +30,31 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin-top: 20px;
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Joke Container Styles */
 #jokeContainer {
     text-align: center;
     width: 100%;
-    height: auto;
-    overflow: hidden;
 }
 
 /* Textbox Styles */
 #textbox {
     margin-top: 20px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 80%;
-    min-width: 200px;
-    max-width: 300px;
-    text-align: center;
-    background-color: #f2f2f2;
-    font-size: 20px;
-    margin-left: 45px;
-    opacity: 0; /* Initially hide the textbox */
-    transition: opacity 0.5s ease; /* Apply transition to opacity */
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 /* Show the textbox when opacity changes */
@@ -64,18 +62,17 @@ body {
     opacity: 1;
 }
 
-
 /* Another Joke Button Styles */
 #anotherJokeButton {
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
     padding: 10px 20px;
     background-color: #4CAF50;
-    color: rgba(0, 0, 0, 0.881);
-    border: 1px solid rgba(0, 0, 0, 0.308);
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 /* Another Joke Button Hover Styles */
@@ -90,7 +87,7 @@ body {
 }
 
 /* Credits Heading Styles */
-#name, #api{
-    color: rgba(0, 0, 0, 0.701);
-    font-size: 12px;
+#name, #api {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
 }
