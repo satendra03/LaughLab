@@ -2,6 +2,8 @@
 
 Welcome to **LaughLab**, a delightful Chrome extension masterfully crafted by **Satendra Kumar Parteti**. This extension offers a treasure trove of witty and amusing jokes to lighten any mood and spark laughter.
 
+## Available
+The Extension is Available At [Microsoft Addons](https://microsoftedge.microsoft.com/addons/detail/laughlab-satendra-kumar/meaikeiaoghlpdikgjhmkmakmdkimnnp)
 ## Features
 
 - Access a wide range of hilarious jokes.
